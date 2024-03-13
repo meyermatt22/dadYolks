@@ -35,10 +35,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>How do you like your yolks?</h1>
+        <h1>?</h1>
         <img src={yolk} className='App-yolk' alt="yolk"/>
         <button onClick={handleNewJokeClick}>Scramble</button>
-        <p>{joke}</p>
+        <p className='joke'>{joke}</p>
       </header>
     </div>
   );
