@@ -25,6 +25,7 @@ function App() {
 
   // Fetch a random joke when the component mounts
   useEffect(() => {
+    // preventDefault();
     fetchRandomJoke();
   }, []); // Empty dependency array means it only runs once when the component mounts
 
@@ -35,9 +36,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>?</h1>
-        <img src={yolk} className='App-yolk' alt="yolk"/>
-        <button onClick={handleNewJokeClick}>Scramble</button>
+        <h1>Want fresh yolks? Break some eggs...</h1>
+        {/* <img src={yolk} className='App-yolk' alt="yolk"/>
+        <button onClick={handleNewJokeClick}>Scramble</button> */}
+        <a href="#" onClick={handleNewJokeClick}>
+          <img src={yolk} className='App-yolk' alt="yolk"/>
+        </a>
         <p className='joke'>{joke}</p>
       </header>
     </div>
