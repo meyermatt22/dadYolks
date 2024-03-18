@@ -36,13 +36,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Want fresh yolks? Break some eggs...</h1>
-        {/* <img src={yolk} className='App-yolk' alt="yolk"/>
-        <button onClick={handleNewJokeClick}>Scramble</button> */}
-        <a href="#" onClick={handleNewJokeClick}>
+        {/* <h1>press to scramble yolk</h1> */}
+        {/* <img src={yolk} className='App-yolk' alt="yolk"/> */}
+        <button onClick={handleNewJokeClick} className='joke'>{joke}</button>
+        {/* <a href="#" onClick={handleNewJokeClick}>
           <img src={yolk} className='App-yolk' alt="yolk"/>
-        </a>
-        <p className='joke'>{joke}</p>
+        </a> */}
+        {/* <p className='joke'>{joke}</p> */}
       </header>
     </div>
   );

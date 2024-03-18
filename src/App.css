@@ -50,4 +50,7 @@ body {
 
 .joke {
   width: 50%;
+  height: 50%;
+  border: none;
+  background: transparent;
 }
