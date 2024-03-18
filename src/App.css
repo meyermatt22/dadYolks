@@ -53,4 +53,6 @@ body {
   height: 50%;
   border: none;
   background: transparent;
+  font-size: 5vw;
+  font-weight: bold;
 }
