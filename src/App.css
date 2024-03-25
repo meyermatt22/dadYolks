@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   /* background-color: #FFCE54; */
   min-height: 100vh;
@@ -28,14 +22,7 @@
   color: #61dafb;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+
 body {
   background: radial-gradient(circle, #FFCE54, #FFCE54 60%, #FDFDFD 60%, #FFCE54);
 }
@@ -55,4 +42,6 @@ body {
   background: transparent;
   font-size: 5vw;
   font-weight: bold;
+  /* border-radius: 50%;
+  transition: border-color 0.3s ease; */
 }

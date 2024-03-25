@@ -4,10 +4,9 @@ import axios from 'axios';
 import './App.css';
 
 function App() {
-  // State variable to hold the fetched joke
+
   const [joke, setJoke] = useState('');
 
-  // Function to fetch a random joke from the Dad Joke API
   const fetchRandomJoke = async () => {
     try {
       const response = await axios.get('https://icanhazdadjoke.com/', {
@@ -15,7 +14,7 @@ function App() {
           'Accept': 'application/json'
         }
       });
-      // Extract the joke from the response data
+
       const data = response.data;
       setJoke(data.joke);
     } catch (error) {
@@ -23,11 +22,11 @@ function App() {
     }
   };
 
-  // Fetch a random joke when the component mounts
+
   useEffect(() => {
-    // preventDefault();
+    
     fetchRandomJoke();
-  }, []); // Empty dependency array means it only runs once when the component mounts
+  }, []);
 
   const handleNewJokeClick = () => {
     fetchRandomJoke();
