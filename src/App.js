@@ -24,7 +24,7 @@ function App() {
 
 
   useEffect(() => {
-    
+
     fetchRandomJoke();
   }, []);
 
@@ -35,13 +35,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <h1>press to scramble yolk</h1> */}
-        {/* <img src={yolk} className='App-yolk' alt="yolk"/> */}
+        
         <button onClick={handleNewJokeClick} className='joke'>{joke}</button>
-        {/* <a href="#" onClick={handleNewJokeClick}>
-          <img src={yolk} className='App-yolk' alt="yolk"/>
-        </a> */}
-        {/* <p className='joke'>{joke}</p> */}
+
       </header>
     </div>
   );
