@@ -3,6 +3,7 @@ import axios from 'axios';
 // import yolk from './yolk.png';
 import './App.css';
 import Footer from './Footer';
+import Header from './Header';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header/>
       <header className="App-header">
 
         <button onClick={handleNewJokeClick} className='joke'>{joke}</button>
