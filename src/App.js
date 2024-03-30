@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 // import yolk from './yolk.png';
 import './App.css';
+import Footer from './Footer';
 
 function App() {
 
@@ -35,10 +36,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+
         <button onClick={handleNewJokeClick} className='joke'>{joke}</button>
 
       </header>
+      <Footer/>
     </div>
   );
 }
