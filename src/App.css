@@ -46,13 +46,24 @@ body {
   height: 50%;
   border: none;
   background: transparent;
+  text-align: center;
   /* border-radius: 50%; */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   /* background: radial-gradient(circle, #FFCE54 30%, transparent 30%); */
 
   font-size: 5vw;
   font-weight: bold;
+  word-wrap: break-word;
   /* font */
   /* border-radius: 50%;
   transition: border-color 0.3s ease; */
+}
+
+.joke-container {
+  height: 1000px;
+  width: 100%; /* Optionally, set a fixed width or use a percentage of the parent container */
+  overflow: auto; /* Prevent content overflow */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }

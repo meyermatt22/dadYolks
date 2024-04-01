@@ -38,8 +38,10 @@ function App() {
     <div className="App">
       <Header/>
       <header className="App-header">
+        <div className='joke-container'>
 
         <button onClick={handleNewJokeClick} className='joke'>{joke}</button>
+        </div>
 
       </header>
       <h1>press the yolk for a new joke!</h1>
