@@ -6,7 +6,7 @@ function Footer() {
         <div id="footer">
       <div>
         <a
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href="https://www.linkedin.com/in/matthew-meyer-59138588/"
         >
           <img className="mattlink" src="https://i.imgur.com/TNBNGjd.png"></img>
@@ -14,7 +14,7 @@ function Footer() {
       </div>
       <div>
         <a
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href="https://github.com/meyermatt22"
         >
           <img className="mattlink" src="https://i.imgur.com/3crBXlp.png"></img>
@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <div>
         <a
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href="https://meyermatt22.github.io/"
         >
           <img className="mattlink" src="https://i.imgur.com/fTF4Qbr.png"></img>
