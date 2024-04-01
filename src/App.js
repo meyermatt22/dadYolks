@@ -42,6 +42,7 @@ function App() {
         <button onClick={handleNewJokeClick} className='joke'>{joke}</button>
 
       </header>
+      <h1>press the yolk for a new joke!</h1>
       <Footer/>
     </div>
   );

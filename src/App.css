@@ -24,7 +24,13 @@
 
 
 body {
-  background: radial-gradient(circle, #FFCE54, #FFCE54 60%, #FDFDFD 60%, #FFCE54);
+  /* background: radial-gradient(circle, #FFCE54, #FFCE54 60%, #FDFDFD 60%, #FFCE54); */
+  background-image: url('yolk.png');
+    /* Adjust background properties as needed */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    /* Add more styling as needed */
+    background-color: #FFCE54;
 }
 
 .egg {
@@ -40,8 +46,13 @@ body {
   height: 50%;
   border: none;
   background: transparent;
+  /* border-radius: 50%; */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* background: radial-gradient(circle, #FFCE54 30%, transparent 30%); */
+
   font-size: 5vw;
   font-weight: bold;
+  /* font */
   /* border-radius: 50%;
   transition: border-color 0.3s ease; */
 }
