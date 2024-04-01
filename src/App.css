@@ -26,11 +26,11 @@
 body {
   /* background: radial-gradient(circle, #FFCE54, #FFCE54 60%, #FDFDFD 60%, #FFCE54); */
   background-image: url('yolk.png');
-    /* Adjust background properties as needed */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the background image */
-    /* Add more styling as needed */
-    background-color: #FFCE54;
+
+  background-size: cover;
+  background-position: center;
+
+  background-color: #FFCE54;
 }
 
 .egg {
@@ -54,16 +54,14 @@ body {
   font-size: 5vw;
   font-weight: bold;
   word-wrap: break-word;
-  /* font */
-  /* border-radius: 50%;
-  transition: border-color 0.3s ease; */
+
 }
 
 .joke-container {
   height: 1000px;
-  width: 100%; /* Optionally, set a fixed width or use a percentage of the parent container */
-  overflow: auto; /* Prevent content overflow */
+  width: 100%;
+  overflow: auto;
   display: flex;
-  align-items: center; /* Center content vertically */
-  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  justify-content: center;
 }
