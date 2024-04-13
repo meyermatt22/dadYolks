@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-// import yolk from './yolk.png';
 import './App.css';
 import Footer from './Footer';
 import Header from './Header';
