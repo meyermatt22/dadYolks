@@ -47,6 +47,7 @@ body {
   font-size: 5vw;
   font-weight: bold;
   word-wrap: break-word;
+  color: black;
 }
 
 .joke-container {
