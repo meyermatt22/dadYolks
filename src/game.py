@@ -1,3 +1,5 @@
+# fire ball game from scale user input
+
 import pygame
 import random
 import sys
